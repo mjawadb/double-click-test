@@ -1,5 +1,7 @@
 # 🖱️ Double Click Tester
 
+![Preview](preview.png)
+
 A simple, responsive web utility built to test and count your mouse clicks and double-clicks accurately.
 
 ## 📖 Overview
