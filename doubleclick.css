@@ -200,12 +200,48 @@ html body {
     }
 }
 
-@media (min-width: 600px) {
+@media (max-width: 768px) {
     .container {
-        width: 50%;
+        max-width: 90%;
     }
+    .click-sec p {
+        font-size: 40px;
+    }
+    .count p {
+        font-size: 24px;
+    }
+    .dblclick-count p {
+        font-size: 20px;
+    }
+    .count {
+        height: 150px;
+    }
+    .click-sec {
+        min-height: 15em;
+    }
+}
 
-    /* .click-count .shade-1 {
-        width: ;
-    } */
+@media (max-width: 480px) {
+    .container {
+        max-width: 95%;
+    }
+    .click-sec p {
+        font-size: 30px;
+    }
+    .count p {
+        font-size: 18px;
+    }
+    .dblclick-count p {
+        font-size: 15px;
+    }
+    .count {
+        height: 120px;
+    }
+    .click-sec {
+        min-height: 12em;
+        margin-bottom: -4em;
+    }
+    .click-count-sec {
+        margin-top: 1em;
+    }
 }
